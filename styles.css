@@ -1,0 +1,98 @@
+html, body {
+    font-family: Arial, sans-serif;
+    background-color: #dbfdd8;
+    color: #333;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+li {
+    font-size: 1.1em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+    background-color: rgba(0, 0, 255, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  background-color: rgba(0, 0, 255, 0.3);
+  padding: 10px;
+  border-radius: 5px;
+  height: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.content label {
+  font-size: 1.5em;
+  line-height: 1.6;
+  margin: 20px;
+  text-align: center;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.top-right,
+.bottom-right {
+    flex: 1;
+}
+
+#item_select_box {
+  width: 100%; /* Makes the select box fill its parent's width */
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #99999900;
+  border-radius: 4px;
+  font-size: 1em;
+  box-sizing: border-box;
+}

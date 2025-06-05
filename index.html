@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gorilla GDKP Loot Prices</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <h1>Gorilla GDKP Loot Prices</h1>
+    <h3>
+        Welcome to the website! Here you will find the
+        prices for Gorilla GDKP Items from raids.
+    </h3>
+    <div class="container" id="app-root">
+        <div class="content left-panel">
+            <label>Select Item</label>
+            <input type="text" id="search_input" v-model="searchInput" placeholder="Search for item..."/>
+            <select size="2" id="item_select_box" v-model="selectedItem">
+                <option v-for="item in item_list" :key="item.name" :value="item">
+                    {{ item.name }}
+                </option>
+            </select>
+        </div>
+        <div class="right-panel">
+            <div class="content top-right">
+                <label id="name_label">{{ selectedName }}</label>
+                <label id="avg_label">{{ selectedAvg }}</label>
+                <ul class="item-list-display">
+                    <li v-for="item in priceList">{{ item.date.replace(".", " RAID #") }} &nbsp;&nbsp;&nbsp;&nbsp; {{ item.value }}g</li>
+                </ul>
+            </div>
+            <div class="content bottom-right">
+                <img :src="currentPlot" alt="Item Plot" />
+            </div>
+        </div>
+    </div>
+    <script src="findscript.js"></script>
+</body>
+</html>
