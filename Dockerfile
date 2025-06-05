@@ -5,7 +5,6 @@ COPY ./index.html ~
 COPY ./index.html /var/www/html/
 COPY ./findscript.js /var/www/html/
 COPY ./styles.css /var/www/html/
-COPY ./out_test_list.csv /var/www/html/
 COPY ./gorilla_analyze.py /var/www/html/
 COPY ./gorillaparser.py /var/www/html/
 COPY ./time_plotter.py /var/www/html/
