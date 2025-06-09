@@ -4,6 +4,9 @@
 # And the big file
 out_list.csv
 
+# And plots
+*.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
