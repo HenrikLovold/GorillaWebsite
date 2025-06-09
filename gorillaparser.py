@@ -157,7 +157,7 @@ def get_prices(testing=False, n_test=0):
                             for key, val in item_values.items():
                                 if key != "avg":
                                     n += 1
-                                    curr_avg += val
+                                    curr_avg += float(val)
                             item_values[item]["avg"] = round(float(curr_avg / n), 2)
                         else:
                             item_values[item] = {"avg": price}
