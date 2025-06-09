@@ -5,10 +5,11 @@ const displayer = Vue.createApp({
             searchInput: "",
             raw_item_list: [],
             selectedItem: null,
-            selectedName: "",
-            selectedAvg: "",
+            selectedName: "No item selected",
+            selectedAvg: "Average price",
             priceList: null,
-            currentPlot: ""
+            currentPlot: "",
+            bottomRightMaxHeight: "50vh"
         };
     },
     methods: {
@@ -114,22 +115,39 @@ const displayer = Vue.createApp({
             item_name = item_name.replace(/ /g, "");
             path = "./plots/" + item_name + ".png";
             this.currentPlot = path;
-        }
+        },
+
+        updateBottomRightHeight() {
+        this.$nextTick(() => {
+            const header = document.querySelector("#header-content");
+            const topRight = document.querySelector(".top-right");
+
+            const headerHeight = header?.offsetHeight || 0;
+            const topRightHeight = topRight?.offsetHeight || 0;
+            const buffer = 15;
+
+            const totalSubtract = headerHeight + topRightHeight + buffer;
+            this.bottomRightMaxHeight = `calc(100vh - ${totalSubtract}px)`;
+        });
+    }
     },
 
     watch: {
         searchInput(new_v, old_v) {
             this.limitToSearch();
+            this.updateBottomRightHeight();
         },
 
         selectedItem(new_v, old_v) {
             console.log(new_v)
             this.readDatesAndValues(new_v);
+            this.updateBottomRightHeight();
         }
     },
 
     mounted() {
         this.main();
+        this.updateBottomRightHeight();
     }
 });
 

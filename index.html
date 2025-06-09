@@ -6,17 +6,19 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 <body>
-    <h1>Gorilla GDKP Loot Prices</h1>
-    <h3>
-        Welcome to the website! Here you will find the
-        prices for Gorilla GDKP Items from raids.
-    </h3>
-    <p>
-        The website's code is open source and can be found on 
-        <a href="https://github.com/HenrikLovold/GorillaWebsite">Github</a>.
-        It is definitely a WIP, don't expect a bug free experience. 
-        Made by your favourite tank Teldor :)
-    </p>
+    <div id="header-content">
+        <h1>Gorilla GDKP Loot Prices</h1>
+        <h3>
+            Welcome to the website! Here you will find the
+            prices for Gorilla GDKP Items from raids.
+        </h3>
+        <p>
+            The website's code is open source and can be found on 
+            <a href="https://github.com/HenrikLovold/GorillaWebsite">Github</a>.
+            It is definitely a WIP, don't expect a bug free experience. 
+            Made by your favourite tank Teldor :)
+        </p>
+    </div>
     <div class="container" id="app-root">
         <div class="content left-panel">
             <label>Select Item</label>
@@ -31,11 +33,13 @@
             <div class="content top-right">
                 <label id="name_label">{{ selectedName }}</label>
                 <label id="avg_label">{{ selectedAvg }}</label>
-                <ul class="item-list-display">
-                    <li v-for="item in priceList">{{ item.date.replace(".", " RAID #") }} &nbsp;&nbsp;&nbsp;&nbsp; {{ item.value }}g</li>
-                </ul>
+                <div class="scrollable-box">
+                    <ul class="item-list-display">
+                        <li v-for="item in priceList">{{ item.date.replace(".", " RAID #") }} &nbsp;&nbsp;&nbsp;&nbsp; {{ item.value }}g</li>
+                    </ul>
+                </div>
             </div>
-            <div class="content bottom-right">
+            <div class="content bottom-right" :style="{ maxHeight: bottomRightMaxHeight }">
                 <img :src="currentPlot" alt="Item Plot" />
             </div>
         </div>
