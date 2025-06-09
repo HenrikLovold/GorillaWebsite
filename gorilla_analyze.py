@@ -136,7 +136,7 @@ class GorillaAnalyzer:
 def main(reload_server=False, reload_file=False):
     if reload_server:
         LOGGER.log_entry("Reloading from server")
-        g = GorillaAnalyzer(from_server=True, inp_file="out_list.csv", testing=False, n_test=7)
+        g = GorillaAnalyzer(from_server=True, inp_file="out_list.csv", testing=True, n_test=4)
         for i, k in enumerate(g.prices.keys()):
             g.plot_item_value_to_file(k)
         g.dump_to_file("out_list.csv")
