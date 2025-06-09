@@ -1,6 +1,9 @@
 # Well, it's for auth tools...
 *.json
 
+# And the big file
+out_list.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

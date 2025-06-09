@@ -150,8 +150,15 @@ def get_prices(testing=False, n_test=0):
                         if items[i] == []:
                             break
                         if item in item_values.keys():
-                            item_values[item]["avg"] = round(float((item_values[item]["avg"] + price) / 2), 2)
+                            #item_values[item]["avg"] = round(float((item_values[item]["avg"] + price) / 2), 2)
                             item_values[item][date] = price
+                            curr_avg = 0
+                            n = 0
+                            for key, val in item_values.items():
+                                if key != "avg":
+                                    n += 1
+                                    curr_avg += val
+                            item_values[item]["avg"] = round(float(curr_avg / n), 2)
                         else:
                             item_values[item] = {"avg": price}
                             item_values[item][date] = price
