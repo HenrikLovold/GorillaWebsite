@@ -124,7 +124,7 @@ img {
     display: block;
 }
 
-#item_select_box {
+#player_select_box {
     width: 100%;
     flex-grow: 1;
     padding: 8px;

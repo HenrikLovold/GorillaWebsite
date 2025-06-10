@@ -1,16 +1,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Gorilla GDKP Loot Prices</title>
+    <title>Gorilla GDKP Player Statistics</title>
     <link rel="stylesheet" href="styles_player_stats.css">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 <body>
     <div id="header-content">
-        <h1>Gorilla GDKP Loot Prices</h1>
+        <h1>Gorilla GDKP Player Statistics</h1>
         <h3>
-            Welcome to the website! Here you will find the
-            prices for Gorilla GDKP Items from raids.
+            Welcome to the website! Here you will find statistics
+            for Gorilla GDKP players.
         </h3>
         <p>
             The website's code is open source and can be found on 
@@ -21,30 +21,16 @@
     </div>
     <div class="container" id="app-root">
         <div class="content left-panel">
-            <label>Select Item</label>
-            <input type="text" id="search_input" v-model="searchInput" placeholder="Search for item..."/>
-            <select size="2" id="item_select_box" v-model="selectedItem">
-                <option v-for="item in item_list" :key="item.name" :value="item">
-                    {{ item.name }}
+            <label>Select Player</label>
+            <input type="text" id="search_input" v-model="searchInput" placeholder="Search for player..."/>
+            <select size="2" id="player_select_box" v-model="selectedPlayer">
+                <option v-for="player in players" :key="player.name" :value="player">
+                    {{ player.name }}
                 </option>
             </select>
         </div>
-        <div class="right-panel">
-            <div class="content top-right">
-                <label id="name_label">{{ selectedName }}</label>
-                <p id="stats_paragraph">{{ selectedAvg }}<br />
-                                        {{ selectedStdev }}<br />
-                                        {{ selectedVar }}
-                </p>
-                <div class="scrollable-box">
-                    <ul class="item-list-display">
-                        <li v-for="item in priceList">{{ item.date.replace(".", " RAID #") }} &nbsp;&nbsp;&nbsp;&nbsp; {{ item.value }}g</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="content bottom-right" :style="{ maxHeight: bottomRightMaxHeight }">
-                <img :src="currentPlot" alt="Item Plot" />
-            </div>
+        <div class="content right-panel">
+            <label>Statistics</label>
         </div>
     </div>
     <script src="player_script.js"></script>
