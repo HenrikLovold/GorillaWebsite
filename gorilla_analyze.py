@@ -15,6 +15,7 @@ class GorillaAnalyzer:
         self.testing = testing
         self.n_test = n_test
         self.prices: dict = {}
+        self.players: dict = {}
         if from_server:
             self._fetch_data_from_server()
         else:
@@ -22,7 +23,10 @@ class GorillaAnalyzer:
         self.n_raids = self._number_of_raids()
 
     def _fetch_data_from_server(self) -> dict:
-        self.prices = gp.get_prices(self.testing, self.n_test)
+        data = gp.get_prices_and_players(self.testing, self.n_test)
+        self.prices = data[0]
+        self.players = data[1]
+        print(self.players)
 
     def _read_from_file(self, filename):
         name_find_regex = r"^([^{]*)"
@@ -107,11 +111,15 @@ class GorillaAnalyzer:
             ndrops = len(self.prices[item]) - 1
         return round(ndrops / self.n_raids * 100) 
         
-    def dump_to_file(self, filename) -> None:
-        with open(filename, "w") as f:
+    def dump_to_file(self, filename_prices, filename_players) -> None:
+        with open(filename_prices, "w") as f:
             for key, value in self.prices.items():
                 f.write(str(key) + " " + str(value) + "\n")
-        LOGGER.log_entry("Dumped to file " + str(filename))
+        LOGGER.log_entry("Dumped item values to file " + str(filename_prices))
+        with open(filename_players, "w") as f:
+            for key, value in self.players.items():
+                f.write(str(key) + " " + str(value) + "\n")
+        LOGGER.log_entry("Dumped player data to file " + str(filename_players))
 
     def daily_update(self):
         now_utc = datetime.datetime.now(datetime.timezone.utc)
@@ -126,20 +134,17 @@ class GorillaAnalyzer:
         print(f"Sleeping for {time_to_sleep:.2f} seconds...")
         time.sleep(time_to_sleep)
         LOGGER.log_entry("Daily update from server")
-        g = GorillaAnalyzer(from_server=True, inp_file="out_list.csv", testing=False, n_test=7)
-        for i, k in enumerate(g.prices.keys()):
-            g.plot_item_value_to_file(k)
-        g.dump_to_file("out_list.csv")
-
+        self.prices = self._fetch_data_from_server()
+        self.dump_to_file("out_list.csv", "player_list.csv")
         time.sleep(1)
 
 def main(reload_server=False, reload_file=False):
     if reload_server:
         LOGGER.log_entry("Reloading from server")
-        g = GorillaAnalyzer(from_server=True, inp_file="out_list.csv", testing=False, n_test=4)
+        g = GorillaAnalyzer(from_server=True, inp_file="out_list.csv", testing=True, n_test=0)
         for i, k in enumerate(g.prices.keys()):
             g.plot_item_value_to_file(k)
-        g.dump_to_file("out_list.csv")
+        g.dump_to_file("out_list.csv", "player_list.csv")
     if reload_file:
         LOGGER.log_entry("Reloading from file")
         g = GorillaAnalyzer(from_server=False, inp_file="out_list.csv", testing=False, n_test=7)

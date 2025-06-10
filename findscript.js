@@ -8,7 +8,7 @@ const displayer = Vue.createApp({
             selectedName: "No item selected",
             selectedAvg: "Average price",
             selectedStdev: "Standard deviation",
-            selectedVar: "Variance",
+            selectedVar: "Population variance",
             priceList: null,
             currentPlot: "",
             bottomRightMaxHeight: "50vh"
@@ -113,7 +113,7 @@ const displayer = Vue.createApp({
         async postDataToRightFields (item_name, avg, stdev, variance, price_list) {
             this.selectedName = item_name;
             this.selectedAvg = "Average price: " + avg + "g";
-            this.selectedStdev = "Polulation standard deviation: " + stdev
+            this.selectedStdev = "Population standard deviation: " + stdev
             this.selectedVar = "Population variance: " + variance
         },
 
@@ -124,30 +124,28 @@ const displayer = Vue.createApp({
         },
 
         updateBottomRightHeight() {
-        this.$nextTick(() => {
-            const header = document.querySelector("#header-content");
-            const topRight = document.querySelector(".top-right");
+            this.$nextTick(() => {
+                const header = document.querySelector("#header-content");
+                const topRight = document.querySelector(".top-right");
 
-            const headerHeight = header?.offsetHeight || 0;
-            const topRightHeight = topRight?.offsetHeight || 0;
-            const buffer = 15;
+                const headerHeight = header?.offsetHeight || 0;
+                const topRightHeight = topRight?.offsetHeight || 0;
+                const buffer = 15;
 
-            const totalSubtract = headerHeight + topRightHeight + buffer;
-            this.bottomRightMaxHeight = `calc(100vh - ${totalSubtract}px)`;
-        });
-    }
+                const totalSubtract = headerHeight + topRightHeight + buffer;
+                this.bottomRightMaxHeight = `calc(100vh - ${totalSubtract}px)`;
+            });
+        }
     },
 
     watch: {
         searchInput(new_v, old_v) {
             this.limitToSearch();
-            this.updateBottomRightHeight();
         },
 
         selectedItem(new_v, old_v) {
             console.log(new_v)
             this.readDatesAndValues(new_v);
-            this.updateBottomRightHeight();
         }
     },
 

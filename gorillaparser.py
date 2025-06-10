@@ -103,49 +103,81 @@ def calc_stdev(item_values, item):
     else:
         item_values[item]["stdev"] = 0
 
-def get_prices(testing=False, n_test=0):
+def make_item_values_dict(items, prices, date, item_values):
+    for i in range(len(items)):
+        try:
+            item = items[i][0].strip()
+            item = item.replace(",", "")
+            price = float(prices[i][0])
+            if items[i] == []:
+                break
+            if item in item_values.keys():
+                item_values[item][date] = price
+                item_values[item]["avg"] = calc_avg(item_values, item)                              
+            else:
+                item_values[item] = {"avg": price}
+                item_values[item][date] = price
+        except Exception as e:
+            print("Could not parse", items[i][0], prices[i][0], len(prices[i][0]), e)
+
+def make_player_cut_dict(players, cuts, date, player_cuts):
+    for i in range(len(players)):
+        try:
+            player_name = players[i][0].strip()
+            if player_name == "" or player_name.isnumeric() or player_name == "Player":
+                continue
+            player_name = player_name.replace(",", "")
+            price = float(cuts[i][0])
+            if players[i] == []:
+                break
+            if player_name in player_cuts.keys():
+                player_cuts[player_name][date] = price
+                player_cuts[player_name]["avg"] = calc_avg(player_cuts, player_name)                              
+            else:
+                player_cuts[player_name] = {"avg": price}
+                player_cuts[player_name][date] = price
+        except Exception as e:
+            print("Could not parse", players[i][0], cuts[i][0], len(cuts[i][0]), e)
+    
+
+def get_prices_and_players(testing=False, n_test=0):
     credentials = authenticate_service_account()
 
     if credentials:
         item_values = {}
+        player_cuts = {}
         sheet_names = get_sheet_names(SPREADSHEET_ID, credentials)
 
         test_i = 0
         for sheet in sheet_names:
-            time.sleep(0.5)
+            time.sleep(0.5) # To avoid throttling from Google
             if not sheet.startswith("["):
                 continue
             datematch_regex = r"\[(.*?)\]"
             date = re.match(datematch_regex, sheet).group()[1:-1] + "." + sheet[-1]
-            KEY_RANGE = f'{sheet}!B8:B'
-            VALUE_RANGE = f'{sheet}!D8:D'
+            KEY_RANGE_ITEMS = f'{sheet}!B8:B63'
+            VALUE_RANGE_ITEMS = f'{sheet}!D8:D63'
+            KEY_RANGE_PLAYERS = f'{sheet}!E8:E63'
+            VALUE_RANGE_PLAYERS = f'{sheet}!H8:H63'
             RANGES_TO_READ = [
-                KEY_RANGE,
-                VALUE_RANGE
+                KEY_RANGE_ITEMS,
+                VALUE_RANGE_ITEMS,
+                KEY_RANGE_PLAYERS,
+                VALUE_RANGE_PLAYERS
             ]
             print(f"\n--- Fetching Data from {sheet} ---")
             value_ranges = read_sheet_data(SPREADSHEET_ID, RANGES_TO_READ, credentials)
             items = value_ranges[0]["values"]
-            prices = value_ranges[-1]["values"]
+            prices = value_ranges[1]["values"]
+            players = value_ranges[2]["values"]
+            cuts = value_ranges[3]["values"]
             try:
-                raid_num = 0
                 for i in range(len(items)):
-                    try:
-                        item = items[i][0].strip()
-                        item = item.replace(",", "")
-                        price = float(prices[i][0])
-                        if items[i] == []:
-                            break
-                        if item in item_values.keys():
-                            item_values[item][date] = price
-                            item_values[item]["avg"] = calc_avg(item_values, item)                              
-                        else:
-                            item_values[item] = {"avg": price}
-                            item_values[item][date] = price
-                    except Exception as e:
-                        print("Could not parse", items[i][0], prices[i][0], len(prices[i][0]), e)
-                    raid_num += 1
-            except: # You should never do this in code, but it works... crap
+                    make_item_values_dict(items, prices, date, item_values)
+                print("Finished item values")
+                for i in range(len(players)):
+                    make_player_cut_dict(players, cuts, date, player_cuts)
+            except Exception as e: # You should never do this in code, but it works... crap
                 if testing:
                     test_i += 1
                     if test_i > n_test:
@@ -155,7 +187,7 @@ def get_prices(testing=False, n_test=0):
         for item in item_values:
             calc_variance(item_values, item)
             calc_stdev(item_values, item)
-        return item_values
+        return (item_values, player_cuts)
 
 if __name__ == '__main__':
-    get_prices()
+    get_prices_and_players()
