@@ -2,51 +2,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Gorilla GDKP Loot Prices</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_index.css">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 <body>
-    <div id="header-content">
-        <h1>Gorilla GDKP Loot Prices</h1>
-        <h3>
-            Welcome to the website! Here you will find the
-            prices for Gorilla GDKP Items from raids.
-        </h3>
-        <p>
-            The website's code is open source and can be found on 
-            <a href="https://github.com/HenrikLovold/GorillaWebsite">Github</a>.
-            It is definitely a WIP, don't expect a bug free experience. 
-            Made by your favourite tank Teldor :)
-        </p>
-    </div>
-    <div class="container" id="app-root">
-        <div class="content left-panel">
-            <label>Select Item</label>
-            <input type="text" id="search_input" v-model="searchInput" placeholder="Search for item..."/>
-            <select size="2" id="item_select_box" v-model="selectedItem">
-                <option v-for="item in item_list" :key="item.name" :value="item">
-                    {{ item.name }}
-                </option>
-            </select>
+    <div class="container">
+        <div class="content item-stats">
+            <h1>
+                <a href="item_stats.html">Item statistics</a>
+            </h1>
         </div>
-        <div class="right-panel">
-            <div class="content top-right">
-                <label id="name_label">{{ selectedName }}</label>
-                <p id="stats_paragraph">{{ selectedAvg }}<br />
-                                        {{ selectedStdev }} <br />
-                                        {{ selectedVar }}
-                </p>
-                <div class="scrollable-box">
-                    <ul class="item-list-display">
-                        <li v-for="item in priceList">{{ item.date.replace(".", " RAID #") }} &nbsp;&nbsp;&nbsp;&nbsp; {{ item.value }}g</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="content bottom-right" :style="{ maxHeight: bottomRightMaxHeight }">
-                <img :src="currentPlot" alt="Item Plot" />
-            </div>
+        <div class="content player-stats">
+            <h1>
+                <a href="player_stats.html">Player statistics</a>
+            </h1>
         </div>
+        <script src="index_script.js"></script>
     </div>
-    <script src="findscript.js"></script>
 </body>
+
 </html>

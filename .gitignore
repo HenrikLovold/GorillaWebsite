@@ -5,6 +5,7 @@
 out_list.csv
 
 # And plots
+plots/*.png
 *.png
 
 # Byte-compiled / optimized / DLL files
