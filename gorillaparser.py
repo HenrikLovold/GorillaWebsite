@@ -1,6 +1,7 @@
 import os
 import time
 import regex as re
+import statistics as stat
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
@@ -83,12 +84,25 @@ def calc_avg(item_values, item):
     n = 0
     s = 0
     for k, v in item_values[item].items():
-        if k == "avg":
-            continue
-        s += v
-        n += 1
+        if k.startswith("2"):
+            s += v
+            n += 1
     return round(s/n, 2)
+
+def calc_variance(item_values, item):
+    values = [v for k, v in item_values[item].items() if k.startswith("2")]
+    if len(values) > 1:
+        item_values[item]["var"] = round(stat.variance(values), 2)
+    else:
+        item_values[item]["var"] = 0
     
+def calc_stdev(item_values, item):
+    values = [v for k, v in item_values[item].items() if k.startswith("2")]
+    if len(values) > 1:
+        item_values[item]["stdev"] = round(stat.stdev(values), 2)
+    else:
+        item_values[item]["stdev"] = 0
+
 def get_prices(testing=False, n_test=0):
     credentials = authenticate_service_account()
 
@@ -138,6 +152,9 @@ def get_prices(testing=False, n_test=0):
                         break
                 continue
             i += 1
+        for item in item_values:
+            calc_variance(item_values, item)
+            calc_stdev(item_values, item)
         return item_values
 
 if __name__ == '__main__':

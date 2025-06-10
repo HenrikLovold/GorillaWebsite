@@ -13,7 +13,7 @@ def plot_item_prices(name: str, item: dict, tofile: bool=False) -> None:
     date_vals = []
     price_vals = []
     for date, price in item.items():
-        if date == "avg":
+        if not date.startswith("2"):
             continue
         date_vals.append(get_day_number(date))
         price_vals.append(price)

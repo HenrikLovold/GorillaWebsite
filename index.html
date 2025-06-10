@@ -32,7 +32,10 @@
         <div class="right-panel">
             <div class="content top-right">
                 <label id="name_label">{{ selectedName }}</label>
-                <label id="avg_label">{{ selectedAvg }}</label>
+                <p id="stats_paragraph">{{ selectedAvg }}<br />
+                                        {{ selectedStdev }} <br />
+                                        {{ selectedVar }}
+                </p>
                 <div class="scrollable-box">
                     <ul class="item-list-display">
                         <li v-for="item in priceList">{{ item.date.replace(".", " RAID #") }} &nbsp;&nbsp;&nbsp;&nbsp; {{ item.value }}g</li>

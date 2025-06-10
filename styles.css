@@ -55,9 +55,11 @@ img {
 .scrollable-box {
     border: 1px solid #ccc;
     height: 100px;
+    width: 20vw;
     flex-grow: 0;
     overflow-y: scroll;
     padding: 10px;
+    align-self: center;
 }
 
 .container {

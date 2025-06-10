@@ -7,6 +7,8 @@ const displayer = Vue.createApp({
             selectedItem: null,
             selectedName: "No item selected",
             selectedAvg: "Average price",
+            selectedStdev: "Standard deviation",
+            selectedVar: "Variance",
             priceList: null,
             currentPlot: "",
             bottomRightMaxHeight: "50vh"
@@ -90,8 +92,10 @@ const displayer = Vue.createApp({
             const jsonString = item_values.replace(/'/g, '"');
             const dataObject = JSON.parse(jsonString);
             avg = dataObject["avg"];
+            stdev = dataObject["stdev"];
+            variance = dataObject["var"];
             price_list = await this.generatePriceList(dataObject);
-            await this.postDataToRightFields(item_name, avg, dataObject, price_list);
+            await this.postDataToRightFields(item_name, avg, stdev, variance, dataObject, price_list);
             await this.insertPlotForItem(item_name);
         },
 
@@ -99,16 +103,18 @@ const displayer = Vue.createApp({
             let dates = []
             Object.keys(data_obj).forEach(key => {
                 const value = data_obj[key];
-                if (key != "avg") {
+                if (key.startsWith("2")) {
                     dates.push({date:key, value:value});
                 }
             })
             this.priceList = dates;
         },
 
-        async postDataToRightFields (item_name, avg, price_list) {
+        async postDataToRightFields (item_name, avg, stdev, variance, price_list) {
             this.selectedName = item_name;
             this.selectedAvg = "Average price: " + avg + "g";
+            this.selectedStdev = "Polulation standard deviation: " + stdev
+            this.selectedVar = "Population variance: " + variance
         },
 
         async insertPlotForItem (item_name) {
