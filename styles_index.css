@@ -1,7 +1,7 @@
 html, body {
     height: 100vh;
     font-family: Arial, sans-serif;
-    background-color: #dbfdd8;
+    background-color: #ffffff;
     color: #333;
     margin: 0;
     padding: 0;
@@ -45,25 +45,44 @@ h3 {
 }
 
 .content {
-  display: flex;
-  background-color: rgba(0, 0, 255, 0.3);
-  padding: 50px;
-  border-radius: 5px;
-  align-items: center;
-  flex-direction: column;
-  box-sizing: border-box;
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.3);
+    padding: 50px;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 
 .content label {
-  font-size: 1.5em;
-  line-height: 1.6;
-  margin: 20px;
-  text-align: center;
+    font-size: 1.5em;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
 }
 
 .content h1 {
-  font-size: 2em;
-  line-height: 1.6;
-  margin: 20px;
-  text-align: center;
+    font-size: 2em;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
+}
+
+.content a,
+.content a:link,
+.content a:visited,
+.content a:hover,
+.content a:active {
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    line-height: 1.6;
+    margin: 0px;
+    text-align: center;
+}
+
+.container img {
+    height: 50vh;
+    width: auto;
+    padding: 20vh;
 }

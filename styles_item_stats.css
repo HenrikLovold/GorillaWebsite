@@ -76,19 +76,19 @@ img {
 }
 
 .content {
-  display: flex;
-  background-color: rgba(0, 0, 255, 0.3);
-  padding: 10px;
-  border-radius: 5px;
-  flex-direction: column;
-  box-sizing: border-box;
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 
 .content label {
-  font-size: 1.5em;
-  line-height: 1.6;
-  margin: 20px;
-  text-align: center;
+    font-size: 1.5em;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
 }
 
 .right-panel {
