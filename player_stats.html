@@ -6,9 +6,47 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Keep calm and raid naxx</h1>
+    <div id="header-content">
+        <h1>Gorilla GDKP Loot Prices</h1>
+        <h3>
+            Welcome to the website! Here you will find the
+            prices for Gorilla GDKP Items from raids.
+        </h3>
+        <p>
+            The website's code is open source and can be found on 
+            <a href="https://github.com/HenrikLovold/GorillaWebsite">Github</a>.
+            It is definitely a WIP, don't expect a bug free experience. 
+            Made by your favourite tank Teldor :)
+        </p>
     </div>
+    <div class="container" id="app-root">
+        <div class="content left-panel">
+            <label>Select Item</label>
+            <input type="text" id="search_input" v-model="searchInput" placeholder="Search for item..."/>
+            <select size="2" id="item_select_box" v-model="selectedItem">
+                <option v-for="item in item_list" :key="item.name" :value="item">
+                    {{ item.name }}
+                </option>
+            </select>
+        </div>
+        <div class="right-panel">
+            <div class="content top-right">
+                <label id="name_label">{{ selectedName }}</label>
+                <p id="stats_paragraph">{{ selectedAvg }}<br />
+                                        {{ selectedStdev }}<br />
+                                        {{ selectedVar }}
+                </p>
+                <div class="scrollable-box">
+                    <ul class="item-list-display">
+                        <li v-for="item in priceList">{{ item.date.replace(".", " RAID #") }} &nbsp;&nbsp;&nbsp;&nbsp; {{ item.value }}g</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content bottom-right" :style="{ maxHeight: bottomRightMaxHeight }">
+                <img :src="currentPlot" alt="Item Plot" />
+            </div>
+        </div>
+    </div>
+    <script src="player_script.js"></script>
 </body>
-
 </html>
