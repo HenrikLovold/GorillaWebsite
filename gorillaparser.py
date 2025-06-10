@@ -2,6 +2,7 @@ import os
 import time
 import regex as re
 import statistics as stat
+import traceback
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
@@ -103,6 +104,31 @@ def calc_stdev(item_values, item):
     else:
         item_values[item]["stdev"] = 0
 
+def calc_avg_spending(player_spendings, player_cuts):
+    for k, v in player_spendings.items():
+        if k in player_cuts.keys():
+            n_raids = len([x for x in player_cuts[k] if x.startswith("2")])
+            sum_spending = sum([float(val) for key, val 
+                                in v.items() 
+                                if key.startswith("2")])
+            v["avg"] = round(sum_spending / n_raids, 2) 
+
+def calc_total_cuts(player_cuts):
+    for name, values in player_cuts.items():
+        values["total"] = sum([v for k, v in values.items() if k.startswith("2")])
+
+def calc_avg_deduct(player_cuts, player_deducts):
+    for name_cut, value_cut in player_cuts.items():
+        n_raids = len([v for k, v in value_cut.items() if k.startswith("2")])
+        sum_deducts = 0
+        if name_cut in player_deducts.keys():
+            player_deducts[name_cut]["avg"] = sum([float(v) for k, v 
+                                                   in player_deducts[name_cut].items() 
+                                                   if k.startswith("2")]) / n_raids
+        else:
+            player_deducts[name_cut] = {"avg": 0}
+
+
 def make_item_values_dict(items, prices, date, item_values):
     for i in range(len(items)):
         try:
@@ -116,29 +142,77 @@ def make_item_values_dict(items, prices, date, item_values):
                 item_values[item]["avg"] = calc_avg(item_values, item)                              
             else:
                 item_values[item] = {"avg": price}
+                item_values[item]["stdev"] = 0
+                item_values[item]["var"] = 0
                 item_values[item][date] = price
         except Exception as e:
-            print("Could not parse", items[i][0], prices[i][0], len(prices[i][0]), e)
+            print("Make values dict: Could not parse", items[i][0], prices[i][0], len(prices[i][0]), e)
 
 def make_player_cut_dict(players, cuts, date, player_cuts):
     for i in range(len(players)):
         try:
-            player_name = players[i][0].strip()
-            if player_name == "" or player_name.isnumeric() or player_name == "Player":
+            player_name = None
+            if players[i]:
+                player_name = players[i][0]
+            if player_name == "" or player_name is None or player_name.isnumeric() or player_name == "Player":
                 continue
-            player_name = player_name.replace(",", "")
+            player_name.strip()
             price = float(cuts[i][0])
             if players[i] == []:
                 break
             if player_name in player_cuts.keys():
                 player_cuts[player_name][date] = price
-                player_cuts[player_name]["avg"] = calc_avg(player_cuts, player_name)                              
+                player_cuts[player_name]["avg"] = calc_avg(player_cuts, player_name)   
+                player_cuts[player_name]["total"] += price
             else:
-                player_cuts[player_name] = {"avg": price}
+                player_cuts[player_name] = {"avg": price, "total": price}
                 player_cuts[player_name][date] = price
         except Exception as e:
-            print("Could not parse", players[i][0], cuts[i][0], len(cuts[i][0]), e)
+            print("Make cut dict: Could not parse i=", i, e)
+
+def make_player_spend_dict(players, prices, date, player_spendings):
+    for i in range(len(players)):
+        try:
+            player_name = players[i][0].strip()
+            if player_name == "" or player_name.isnumeric() or player_name == "Player":
+                continue
+            player_name = player_name.split("-")[0]
+            price = float(prices[i][0])
+            if players[i] == []:
+                break
+            if player_name in player_spendings.keys():
+                if date in player_spendings[player_name]:
+                    player_spendings[player_name][date] += price
+                else:
+                    player_spendings[player_name][date] = price
+                player_spendings[player_name]["avg"] = calc_avg(player_spendings, player_name)     
+                player_spendings[player_name]["total"] += price                         
+            else:
+                player_spendings[player_name] = {"avg": price, "total": price}
+                player_spendings[player_name][date] = price
+        except Exception as e:
+            print("Make spend dict: Could not parse i=", i, players[i][0], prices[i][0], len(prices[i][0]), e)
     
+def make_deduct_dict(names, pcts, date, player_deducts):
+    for name, pct in zip(names, pcts):
+        if not name:
+            continue
+        name = name[0]
+        total_deduct = sum([float(i[:-1]) for i in pct])
+        if not name in player_deducts:
+            player_deducts[name] = {"avg": 0, date: total_deduct}
+        if not date in player_deducts[name]:
+            player_deducts[name][date] = total_deduct
+
+def make_misc_player_stats(player_cuts, player_spendings, misc):
+    for name in player_cuts:
+        cuts = [v for k, v in player_cuts[name].items() if k.startswith("2")]
+        misc[name] = {"ratio": 0, "most_spent": 0, "biggest_cut": max(cuts), "avg_deduct": "TBA"}
+    for cut_name, cut_val in player_cuts.items():
+        if cut_name in player_spendings.keys():
+            spendings = [v for k, v in player_spendings[cut_name].items() if k.startswith("2")]
+            misc[cut_name]["ratio"] =  round(player_spendings[cut_name]["avg"] / cut_val["avg"], 2)
+            misc[cut_name]["most_spent"] = max(spendings)
 
 def get_prices_and_players(testing=False, n_test=0):
     credentials = authenticate_service_account()
@@ -146,6 +220,9 @@ def get_prices_and_players(testing=False, n_test=0):
     if credentials:
         item_values = {}
         player_cuts = {}
+        player_spendings = {}
+        player_deducts = {}
+        player_misc = {}
         sheet_names = get_sheet_names(SPREADSHEET_ID, credentials)
 
         test_i = 0
@@ -159,11 +236,17 @@ def get_prices_and_players(testing=False, n_test=0):
             VALUE_RANGE_ITEMS = f'{sheet}!D8:D63'
             KEY_RANGE_PLAYERS = f'{sheet}!E8:E63'
             VALUE_RANGE_PLAYERS = f'{sheet}!H8:H63'
+            VALUE_RANGE_BUYERS = f'{sheet}!C8:C63'
+            VALUE_RANGE_DEDUCT_NAMES = f'{sheet}!I8:I63'
+            VALUE_RANGE_DEDUCT_PCTS = f'{sheet}!L8:L63'
             RANGES_TO_READ = [
                 KEY_RANGE_ITEMS,
                 VALUE_RANGE_ITEMS,
                 KEY_RANGE_PLAYERS,
-                VALUE_RANGE_PLAYERS
+                VALUE_RANGE_PLAYERS,
+                VALUE_RANGE_BUYERS,
+                VALUE_RANGE_DEDUCT_NAMES,
+                VALUE_RANGE_DEDUCT_PCTS
             ]
             print(f"\n--- Fetching Data from {sheet} ---")
             value_ranges = read_sheet_data(SPREADSHEET_ID, RANGES_TO_READ, credentials)
@@ -171,23 +254,31 @@ def get_prices_and_players(testing=False, n_test=0):
             prices = value_ranges[1]["values"]
             players = value_ranges[2]["values"]
             cuts = value_ranges[3]["values"]
+            buyers = value_ranges[4]["values"]
+            deduct_names = value_ranges[5]["values"]
+            deduct_pcts = value_ranges[6]["values"]
             try:
                 for i in range(len(items)):
                     make_item_values_dict(items, prices, date, item_values)
-                print("Finished item values")
                 for i in range(len(players)):
                     make_player_cut_dict(players, cuts, date, player_cuts)
+                make_player_spend_dict(buyers, prices, date, player_spendings)
+                make_deduct_dict(deduct_names, deduct_pcts, date, player_deducts)
             except Exception as e: # You should never do this in code, but it works... crap
-                if testing:
-                    test_i += 1
-                    if test_i > n_test:
-                        break
-                continue
-            i += 1
+                print(e)
+                traceback.print_exc()
+
+            test_i += 1
+            if testing and test_i > n_test:
+                break
         for item in item_values:
             calc_variance(item_values, item)
             calc_stdev(item_values, item)
-        return (item_values, player_cuts)
+        calc_avg_spending(player_spendings, player_cuts)
+        calc_total_cuts(player_cuts)
+        calc_avg_deduct(player_cuts, player_deducts)
+        make_misc_player_stats(player_cuts, player_spendings, player_misc)
+        return (item_values, player_cuts, player_spendings, player_deducts, player_misc)
 
 if __name__ == '__main__':
     get_prices_and_players()
