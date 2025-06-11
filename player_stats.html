@@ -24,13 +24,43 @@
             <label>Select Player</label>
             <input type="text" id="search_input" v-model="searchInput" placeholder="Search for player..."/>
             <select size="2" id="player_select_box" v-model="selectedPlayer">
-                <option v-for="player in players" :key="player.name" :value="player">
-                    {{ player.name }}
+                <option v-for="player in player_names_current">
+                    {{ player }}
                 </option>
             </select>
         </div>
         <div class="content right-panel">
             <label>Statistics</label>
+                <div id="stats_box">
+                    <p><strong>Max gold spent:</strong> {{selectedPlayerObject.misc["most_spent"]}}g</p>
+                    <p><strong>Biggest cut:</strong> {{selectedPlayerObject.misc["biggest_cut"]}}</p>
+                    <p><strong>Cut to spending ratio:</strong> {{selectedPlayerObject.misc["ratio"]}} gold spent per gold earned</p>
+                    <p><strong>Average deduction in percent:</strong> {{selectedPlayerObject.misc["avg_deduct"]}}</p>
+                </div>
+            <p>
+                <h2>All cuts from raids</h2>
+                <div class="scrollable-box">
+                    <ul v-if="selectedPlayerObject && selectedPlayerObject.cuts">
+                        <template v-for="(cutValue, cutKey) in selectedPlayerObject.cuts" :key="cutKey">
+                            <li v-if="typeof cutKey === 'string' && cutKey.startsWith('2')">
+                                <strong>{{ cutKey.replace('.', ' RAID #') }}:</strong> {{ cutValue }}g
+                            </li>
+                        </template>
+                    </ul>
+                </div>
+            </p>
+            <p>
+                <h2>All sums of purchases from raids</h2>
+                <div class="scrollable-box">
+                    <ul v-if="selectedPlayerObject && selectedPlayerObject.purchases">
+                        <template v-for="(purchaseValue, purchaseKey) in selectedPlayerObject.purchases" :key="purchaseKey">
+                            <li v-if="typeof purchaseKey === 'string' && purchaseKey.startsWith('2')">
+                                <strong>{{ purchaseKey.replace('.', ' RAID #') }}:</strong> {{ purchaseValue }}g
+                            </li>
+                        </template>
+                    </ul>
+                </div>
+            </p>
         </div>
     </div>
     <script src="player_script.js"></script>

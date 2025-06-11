@@ -10,6 +10,8 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -35,7 +37,8 @@ h3 {
     height: 100%;
     flex-grow: 1;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 10vh;
     background-color: rgba(0, 0, 255, 0.2);
@@ -46,6 +49,8 @@ h3 {
 
 .content {
     display: flex;
+    flex-grow: 0;
+    width: 30vh;
     background-color: rgba(0, 0, 255, 0.3);
     padding: 50px;
     border-radius: 5px;

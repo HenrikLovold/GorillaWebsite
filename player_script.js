@@ -1,10 +1,10 @@
 class Player {
     constructor (name) {
         this.name = name;
-        this.cuts = []
-        this.purchases = []
-        this.deducts = []
-        this.misc = []
+        this.cuts = [];
+        this.purchases = [];
+        this.deducts = [];
+        this.misc = [];
     }
 
     addCuts (cuts_list) {
@@ -17,12 +17,13 @@ const displayer = Vue.createApp({
         return {
             players: {},
             player_names: [],
+            player_names_current: [],
             selectedPlayer: null,
             searchInput: "",
-            selectedPlayer: null
-
+            selectedPlayerObject: new Player("Dummy")
         };
     },
+
     methods: {
         async main () {
             const cuts = await this.loadFile("player_list.csv");
@@ -58,7 +59,9 @@ const displayer = Vue.createApp({
                 player_name = line.substring(0, index_of_bracket);
                 this.players[player_name] = new Player(player_name);
                 this.player_names.push(player_name)
-            }            
+            }
+            this.player_names = Object.values(this.player_names).sort();
+            this.player_names_current = [...this.player_names];
         },
 
         parseCutsList (result) {
@@ -70,7 +73,8 @@ const displayer = Vue.createApp({
                 let index_of_bracket = line.indexOf("{") - 1;
                 player_name = line.substring(0, index_of_bracket);
                 player_cuts = line.substring(index_of_bracket+1);
-                this.players[player_name].cuts = ({ cuts:player_cuts });
+                player_cuts = JSON.parse(player_cuts.replaceAll("'", "\""));
+                this.players[player_name].cuts = player_cuts;
             }
         },
 
@@ -83,8 +87,9 @@ const displayer = Vue.createApp({
                 let index_of_bracket = line.indexOf("{") - 1;
                 player_name = line.substring(0, index_of_bracket);
                 purchases = line.substring(index_of_bracket+1);
+                purchases = JSON.parse(purchases.replaceAll("'", "\""));
                 if (this.players[player_name]) {
-                    this.players[player_name].purchases = ({ buys:purchases });
+                    this.players[player_name].purchases = (purchases);
                 }
             }
         },
@@ -98,8 +103,9 @@ const displayer = Vue.createApp({
                 let index_of_bracket = line.indexOf("{") - 1;
                 player_name = line.substring(0, index_of_bracket);
                 deducts = line.substring(index_of_bracket+1);
+                deducts = JSON.parse(deducts.replaceAll("'", "\""));
                 if (this.players[player_name]) {
-                    this.players[player_name].deducts = ({ deducts:deducts });
+                    this.players[player_name].deducts = (deducts);
                 }
             }
         },
@@ -113,16 +119,17 @@ const displayer = Vue.createApp({
                 let index_of_bracket = line.indexOf("{") - 1;
                 player_name = line.substring(0, index_of_bracket);
                 misc = line.substring(index_of_bracket+1);
+                misc = JSON.parse(misc.replaceAll("'", "\""));
                 if (this.players[player_name]) {
-                    this.players[player_name].misc = ({ misc:misc });
+                    this.players[player_name].misc = (misc);
                 }
             }
         },
 
         sortData () {
-            this.players.sort((a, b) => {
-                const nameA = a.name.toUpperCase();
-                const nameB = b.name.toUpperCase();
+            this.player_names.sort((a, b) => {
+                const nameA = a.toUpperCase();
+                const nameB = b.toUpperCase();
                 if (nameA < nameB) {
                     return -1;
                 }
@@ -137,16 +144,16 @@ const displayer = Vue.createApp({
 
         async limitToSearch () {
             let currentSearch = this.searchInput.toUpperCase();
-            let results = [...this.cuts_list];
+            let results = [...this.player_names_current];
             if (!currentSearch || currentSearch == "") {
-                results = [...this.raw_player_list];
+                results = [...this.player_names];
             } else {
-                this.cuts_list = [...this.raw_player_list];
-                results = this.cuts_list.filter(item =>
-                    item.name.toUpperCase().includes(currentSearch)
+                this.player_names_current = [...this.player_names];
+                results = this.player_names_current.filter(item =>
+                    item.toUpperCase().includes(currentSearch)
                 );
             }
-            this.cuts_list = results;
+            this.player_names_current = results;
             this.sortData();
         },
     },
@@ -161,7 +168,7 @@ const displayer = Vue.createApp({
         },
 
         selectedPlayer(new_v, old_v) {
-            console.log(new_v)
+            this.selectedPlayerObject = this.players[new_v];
         }
     },
 });

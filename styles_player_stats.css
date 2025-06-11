@@ -17,10 +17,7 @@ h1 {
     text-align: center;
 }
 
-p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    margin: 20px;
+h2 {
     text-align: center;
 }
 
@@ -31,6 +28,13 @@ h3 {
     text-align: center;
 }
 
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 0px;
+    text-align: center;
+}
+
 input {
     margin: 10px;
     border-radius: 5px;
@@ -38,7 +42,14 @@ input {
 }
 
 li {
-    font-size: 1.1em;
+    font-size: 1em;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 img {
@@ -90,6 +101,11 @@ img {
     margin: 20px;
     text-align: center;
 }
+
+.content p {
+    font-size: 1em;
+}
+
 
 .right-panel {
     display: flex;
