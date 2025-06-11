@@ -255,7 +255,7 @@ def get_prices_and_players(testing=False, n_test=0):
             players = value_ranges[2]["values"]
             cuts = value_ranges[3]["values"]
             buyers = value_ranges[4]["values"]
-            if "values" in value_ranges[5].keys():
+            if "values" in value_ranges[5].keys() and "values" in value_ranges[6].keys():
                 deduct_names = value_ranges[5]["values"]
                 deduct_pcts = value_ranges[6]["values"]
             else:
