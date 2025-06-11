@@ -158,7 +158,7 @@ class GorillaAnalyzer:
 def main(reload_server=False, reload_file=False):
     if reload_server:
         LOGGER.log_entry("Reloading from server")
-        g = GorillaAnalyzer(from_server=True, inp_file="out_list.csv", testing=True, n_test=40)
+        g = GorillaAnalyzer(from_server=True, inp_file="out_list.csv", testing=True, n_test=49)
         for i, k in enumerate(g.prices.keys()):
             g.plot_item_value_to_file(k)
         g.dump_to_file("out_list.csv", "player_list.csv", "buyer_list.csv", "deduct_list.csv", "misc_list.csv")

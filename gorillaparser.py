@@ -88,7 +88,7 @@ def calc_avg(item_values, item):
         if k.startswith("2"):
             s += v
             n += 1
-    return round(s/n, 2)
+    return round(s/n, 2) if n != 0 else 0
 
 def calc_variance(item_values, item):
     values = [v for k, v in item_values[item].items() if k.startswith("2")]
@@ -111,7 +111,7 @@ def calc_avg_spending(player_spendings, player_cuts):
             sum_spending = sum([float(val) for key, val 
                                 in v.items() 
                                 if key.startswith("2")])
-            v["avg"] = round(sum_spending / n_raids, 2) 
+            v["avg"] = round(sum_spending / n_raids, 2)  if n_raids != 0 else 0
 
 def calc_total_cuts(player_cuts):
     for name, values in player_cuts.items():
@@ -120,11 +120,10 @@ def calc_total_cuts(player_cuts):
 def calc_avg_deduct(player_cuts, player_deducts):
     for name_cut, value_cut in player_cuts.items():
         n_raids = len([v for k, v in value_cut.items() if k.startswith("2")])
-        sum_deducts = 0
         if name_cut in player_deducts.keys():
             player_deducts[name_cut]["avg"] = sum([float(v) for k, v 
                                                    in player_deducts[name_cut].items() 
-                                                   if k.startswith("2")]) / n_raids
+                                                   if k.startswith("2")]) / n_raids if n_raids != 0 else 0
         else:
             player_deducts[name_cut] = {"avg": 0}
 
@@ -211,7 +210,8 @@ def make_misc_player_stats(player_cuts, player_spendings, misc):
     for cut_name, cut_val in player_cuts.items():
         if cut_name in player_spendings.keys():
             spendings = [v for k, v in player_spendings[cut_name].items() if k.startswith("2")]
-            misc[cut_name]["ratio"] =  round(player_spendings[cut_name]["avg"] / cut_val["avg"], 2)
+            misc[cut_name]["ratio"] =  round(player_spendings[cut_name]["avg"] / cut_val["avg"], 2) \
+                                       if cut_val["avg"] != 0 else 0
             misc[cut_name]["most_spent"] = max(spendings)
 
 def get_prices_and_players(testing=False, n_test=0):
@@ -255,8 +255,12 @@ def get_prices_and_players(testing=False, n_test=0):
             players = value_ranges[2]["values"]
             cuts = value_ranges[3]["values"]
             buyers = value_ranges[4]["values"]
-            deduct_names = value_ranges[5]["values"]
-            deduct_pcts = value_ranges[6]["values"]
+            if "values" in value_ranges[5].keys():
+                deduct_names = value_ranges[5]["values"]
+                deduct_pcts = value_ranges[6]["values"]
+            else:
+                deduct_names = [[]]
+                deduct_pcts = [[]]
             try:
                 for i in range(len(items)):
                     make_item_values_dict(items, prices, date, item_values)

@@ -18409,3 +18409,2631 @@ Dumped misc data to file misc_list.csv
 2025-06-11 10:18:21.836892+00:00
 Reloading from server
 
+2025-06-11 10:21:43.372738+00:00
+Reloading from server
+
+2025-06-11 10:23:15.902894+00:00
+Reloading from server
+
+2025-06-11 10:23:34.163611+00:00
+Reloading from server
+
+2025-06-11 10:26:06.672514+00:00
+Reloading from server
+
+2025-06-11 10:28:06.199660+00:00
+Reloading from server
+
+2025-06-11 10:29:30.666966+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:30.726046+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:30.774782+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:30.822108+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:30.870535+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:30.917483+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:30.963381+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.072514+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.149926+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.222697+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.283691+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.378692+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.429744+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.479935+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.533674+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.586580+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.643913+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.705655+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.761423+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.815091+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.866648+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:31.917550+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:32.006898+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:32.066973+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:32.130806+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:32.236258+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:32.378919+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:32.442374+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:32.499148+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:32.595605+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:32.762409+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.080191+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.199627+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.291453+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.364716+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.431857+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.502270+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.551975+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.601851+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.649958+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.695147+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.741773+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.798811+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.853668+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.904080+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:33.975931+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.021511+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.078974+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.136360+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.187019+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.232539+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.281360+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.330242+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.384134+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.442144+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.490430+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.540108+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.585454+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.631819+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.691060+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.756981+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.804724+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.850602+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.902926+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:34.978383+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.062253+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.113118+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.164633+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.278219+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.389078+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.441480+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.489260+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.540603+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.625666+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.679575+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.723944+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.771797+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.822968+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.874158+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.950281+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:35.996936+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.046079+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.093642+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.154843+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.220844+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.275254+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.323307+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.372104+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.419542+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.464949+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.547945+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.601631+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.648228+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.696234+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.742473+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.802480+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.862792+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.915970+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:36.967702+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.015797+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.063536+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.168197+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.220292+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.268286+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.318145+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.365596+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.430941+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.513128+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.560206+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.608356+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.656248+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.717277+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.775486+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.824887+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.874861+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.921809+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:37.966820+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.036757+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.090408+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.136197+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.200248+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.246681+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.313348+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.374900+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.423205+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.469485+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.520514+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.566406+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.623900+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.684184+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.741255+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.790520+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.845004+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:38.912105+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:39.016073+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:39.089542+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:39.174609+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:39.263304+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:39.379110+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:39.576333+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:39.821471+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:39.942508+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.031442+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.100989+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.177784+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.233344+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.280741+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.325730+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.374428+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.436223+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.494841+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.548701+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.594567+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.644536+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.693545+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.754450+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.818428+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.867967+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.915736+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:40.981708+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.039030+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.094360+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.142103+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.191431+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.239165+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.289587+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.371162+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.427376+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.475010+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.522995+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.573387+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.628384+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.688152+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.736774+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.785814+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.832798+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.877878+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:41.945840+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.035856+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.081587+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.126609+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.175022+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.235603+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.297240+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.349308+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.394821+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.443646+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.489117+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.580284+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.633174+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.678832+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.726803+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.772621+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.832159+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.885639+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.933876+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:42.997646+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.041816+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.087010+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.148286+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.213927+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.276414+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.323287+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.369959+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.425314+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.483870+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.539231+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.589272+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.644197+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.699100+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.768863+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.823465+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.873279+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.920554+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:43.965233+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.051644+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.125396+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.172435+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.217860+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.265260+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.315934+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.395512+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.445335+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.493497+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.538399+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.587737+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.639422+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.707964+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.763509+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.827023+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.880908+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:44.939984+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.014652+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.070596+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.140845+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.190028+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.249323+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.306951+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.372040+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.427437+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.476403+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.528751+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.615765+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.664864+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.716762+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.791687+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.870279+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:45.945444+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.046219+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.094980+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.148851+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.235836+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.285577+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.354637+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.400359+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.451795+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.521615+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.571275+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.617670+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.662135+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.709598+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.761265+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.845982+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.898104+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.946710+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:46.994028+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:47.080213+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:47.156018+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:47.230066+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:47.292840+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:47.436966+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:47.670005+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:47.878873+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:48.010957+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:48.301681+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:48.449192+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:48.512251+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:48.571814+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:48.651171+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:48.732280+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:48.786067+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:48.834897+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:48.886523+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:48.959328+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.012154+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.061496+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.119707+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.167241+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.223276+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.317896+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.381149+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.450918+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.501502+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.563094+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.613715+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.661161+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.709038+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.755210+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.806283+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.864368+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.924887+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:49.976104+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.023387+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.072220+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.140730+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.209247+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.256616+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.305498+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.351619+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.398027+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.494383+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.557352+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.604553+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.651882+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.696838+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.761083+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.819879+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.868051+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.915528+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:50.963441+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.011731+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.087082+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.142659+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.190248+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.238862+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.287530+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.345628+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.401831+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.452407+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.516999+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.564021+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.617930+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.687173+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.738299+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.793761+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:29:51.819879+00:00
+Dumped item values to file out_list.csv
+
+2025-06-11 10:29:51.829488+00:00
+Dumped player data to file player_list.csv
+
+2025-06-11 10:29:51.841505+00:00
+Dumped buyer data to file buyer_list.csv
+
+2025-06-11 10:29:51.844653+00:00
+Dumped deduct data to file deduct_list.csv
+
+2025-06-11 10:29:51.845848+00:00
+Dumped misc data to file misc_list.csv
+
+2025-06-11 10:31:24.362857+00:00
+Reloading from server
+
+2025-06-11 10:31:37.938698+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:37.990572+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.038905+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.084425+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.135036+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.255360+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.321167+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.435100+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.502797+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.552390+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.601041+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.666813+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.726861+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.780034+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.830908+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.877614+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:38.929312+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.009007+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.063245+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.115543+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.164423+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.209595+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.280607+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.350267+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.421400+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.473392+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.522240+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.589675+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.650819+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.699563+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.748383+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.795440+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.846903+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.908289+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:39.959461+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.009000+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.053955+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.106383+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.163019+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.222584+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.269892+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.319368+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.386551+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.432857+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.519946+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.573263+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.618643+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.666117+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.712986+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.778784+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.832668+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.881980+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.929157+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:40.977557+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:41.027193+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:41.090267+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:41.144316+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:41.190811+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:41.236510+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:41.283404+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:41.330851+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:41.399655+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:41.476403+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:41.522550+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:41.569116+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:31:41.616236+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:32:46.825200+00:00
+Reloading from server
+
+2025-06-11 10:33:42.957626+00:00
+Reloading from server
+
+2025-06-11 10:33:52.629676+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:52.683688+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:52.735933+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:52.786022+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:52.881636+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:52.996919+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.155472+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.222437+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.283324+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.331005+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.379256+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.428861+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.476771+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.528040+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.608338+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.664920+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.751569+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.798832+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.872682+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.947710+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:53.996658+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.042661+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.098316+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.160905+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.218376+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.287236+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.334825+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.384600+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.432269+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.492831+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.550378+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.628485+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.676333+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.726860+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.806326+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.860296+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.905398+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:54.968169+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:55.020994+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:55.106475+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:55.159545+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:55.211950+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:55.264775+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:55.310283+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:33:55.310899+00:00
+Dumped item values to file out_list.csv
+
+2025-06-11 10:33:55.311622+00:00
+Dumped player data to file player_list.csv
+
+2025-06-11 10:33:55.312051+00:00
+Dumped buyer data to file buyer_list.csv
+
+2025-06-11 10:33:55.312503+00:00
+Dumped deduct data to file deduct_list.csv
+
+2025-06-11 10:33:55.313087+00:00
+Dumped misc data to file misc_list.csv
+
+2025-06-11 10:34:46.734098+00:00
+Reloading from server
+
+2025-06-11 10:34:55.943615+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:55.996217+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:56.156274+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:56.260883+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:56.344340+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:56.397938+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:56.474290+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:56.521550+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:56.579898+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:56.634068+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:56.686048+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:56.735559+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:56.784077+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:56.835334+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:56.903130+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:56.960675+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.013384+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.062455+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.119794+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.189804+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.257480+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.307739+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.360457+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.409809+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.469705+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.560071+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.630104+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.680506+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.726685+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.779582+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.847640+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.897687+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.945018+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:57.990804+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:58.035886+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:58.090250+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:58.150294+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:58.206667+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:58.257830+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:58.314554+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:58.360526+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:58.421254+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:58.480238+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:58.526346+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:34:58.534726+00:00
+Dumped item values to file out_list.csv
+
+2025-06-11 10:34:58.543238+00:00
+Dumped player data to file player_list.csv
+
+2025-06-11 10:34:58.552702+00:00
+Dumped buyer data to file buyer_list.csv
+
+2025-06-11 10:34:58.559032+00:00
+Dumped deduct data to file deduct_list.csv
+
+2025-06-11 10:34:58.564106+00:00
+Dumped misc data to file misc_list.csv
+
+2025-06-11 10:38:05.775527+00:00
+Reloading from server
+
+2025-06-11 10:45:05.186511+00:00
+Reloading from server
+
+2025-06-11 10:46:40.671214+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:40.943609+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:41.085626+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:41.219968+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:41.322898+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:41.376042+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:41.425208+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:41.491389+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:41.552690+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:41.604224+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:41.653978+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:41.713860+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:41.764488+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:41.902208+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:41.959316+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:42.010971+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:42.060323+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:42.149246+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:42.202430+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:42.257190+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:42.305619+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:42.372225+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:42.462618+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:42.517429+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:42.658144+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:42.832314+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:42.902412+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:42.955649+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.006707+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.056845+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.107452+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.155300+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.202804+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.252240+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.304052+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.388576+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.450681+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.508262+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.562197+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.638260+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.746270+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.810076+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:43.904457+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:44.053067+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:44.151052+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:44.371183+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:44.564235+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:44.706928+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:44.780745+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:44.855672+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:44.926134+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.045272+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.102306+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.163222+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.227725+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.273853+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.323002+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.369585+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.415538+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.502182+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.556620+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.604933+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.651134+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.717861+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.843882+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:45.956922+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.011208+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.084989+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.140482+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.189259+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.238240+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.285685+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.347777+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.404004+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.452886+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.498371+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.546083+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.597256+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.672526+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.743577+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.793233+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.841539+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.886844+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:46.939573+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.014708+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.070291+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.118597+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.164599+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.212577+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.277192+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.340221+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.391030+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.438219+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.485934+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.531683+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.596905+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.683390+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.730915+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.781296+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.830220+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.893700+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:47.952511+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.000111+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.048043+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.099021+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.148680+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.215608+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.271828+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.346528+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.449596+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.578988+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.643507+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.711552+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.778821+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.851040+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.928964+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:48.974539+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.025027+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.082965+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.138333+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.188997+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.236506+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.283654+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.333010+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.391001+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.446988+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.500126+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.545825+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.609174+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.667256+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.716337+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.787447+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.850082+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.897850+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:49.969970+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.024563+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.083925+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.138941+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.193010+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.247500+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.355174+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.430859+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.484575+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.532809+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.593063+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.650681+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.698395+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.743014+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.792772+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.840355+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.902126+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:50.964239+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.010462+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.122284+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.205821+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.263581+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.312856+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.362852+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.410496+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.461785+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.563466+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.614446+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.670897+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.792579+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.849983+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.904484+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:51.953751+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.012466+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.063093+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.142434+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.195892+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.244683+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.310795+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.359668+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.446669+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.497323+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.542144+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.592251+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.640114+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.714225+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.779788+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.829825+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.882263+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.929558+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:52.980610+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.077923+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.141708+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.187977+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.235552+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.284828+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.356612+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.430579+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.476681+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.526858+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.572010+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.638041+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.694467+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.740270+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.784856+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.830801+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.875394+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:53.955407+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.009117+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.067661+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.117034+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.162358+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.217497+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.276380+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.325535+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.375114+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.438633+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.484911+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.565078+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.629277+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.674898+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.726606+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.775100+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.846512+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.902823+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:54.954628+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.005931+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.059099+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.122840+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.183765+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.236778+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.286748+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.335422+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.380897+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.442806+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.518165+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.566021+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.615889+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.665322+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.719845+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.778945+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.829735+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.878938+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.927760+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:55.977316+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:56.033643+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:56.097339+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:56.147037+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:56.203861+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:56.249366+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:56.298639+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:56.376195+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:56.457459+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:56.569849+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:56.649806+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:56.758602+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:56.826087+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:56.892822+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:56.964887+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.040973+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.097168+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.145167+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.196244+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.249503+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.312330+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.360886+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.407946+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.454413+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.503073+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.583517+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.635355+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.680879+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.727118+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.793237+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.848846+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.905723+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:57.957041+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.004284+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.053267+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.104038+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.164294+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.225749+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.280520+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.329219+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.377008+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.426768+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.507945+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.557671+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.606527+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.652361+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.700370+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.780371+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.835691+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.882877+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.931020+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:58.975835+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.029739+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.093650+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.153954+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.201278+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.246393+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.294462+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.363941+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.422604+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.471632+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.520280+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.566208+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.613476+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.677676+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.743202+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.808086+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.856751+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.905202+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:46:59.955244+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.045904+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.115634+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.167561+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.218334+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.288793+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.353277+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.403500+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.455413+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.503286+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.554992+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.624299+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.679195+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.727541+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.774866+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.822734+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.921913+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:00.973769+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.023053+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.077860+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.123712+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.178689+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.256666+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.306110+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.357264+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.408395+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.456968+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.532654+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.585091+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.632256+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.676725+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.724560+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.778995+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.849308+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.914591+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:01.960253+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:02.004651+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:02.048633+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:02.111513+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:02.164353+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:02.211759+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:02.258045+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:02.303801+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:02.350318+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:02.406414+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:02.464955+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:02.512667+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:02.566361+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:02.616100+00:00
+Wrote all items to plot: True
+
+2025-06-11 10:47:02.617464+00:00
+Dumped item values to file out_list.csv
+
+2025-06-11 10:47:02.619340+00:00
+Dumped player data to file player_list.csv
+
+2025-06-11 10:47:02.620481+00:00
+Dumped buyer data to file buyer_list.csv
+
+2025-06-11 10:47:02.621813+00:00
+Dumped deduct data to file deduct_list.csv
+
+2025-06-11 10:47:02.623262+00:00
+Dumped misc data to file misc_list.csv
+
