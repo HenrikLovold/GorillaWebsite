@@ -30,12 +30,17 @@
             </select>
         </div>
         <div class="content right-panel">
-            <label>Statistics</label>
+	    <label v-if="selectedPlayerObject && selectedPlayerObject.name != 'Dummy'">
+		    Statistics for {{selectedPlayerObject.name}}
+	    </label>
+	    <label v-else>
+		    Select player
+	    </label>
                 <div id="stats_box">
                     <p><strong>Max gold spent:</strong> {{selectedPlayerObject.misc["most_spent"]}}g</p>
                     <p><strong>Biggest cut:</strong> {{selectedPlayerObject.misc["biggest_cut"]}}g</p>
                     <p><strong>Cut to spending ratio:</strong> {{selectedPlayerObject.misc["ratio"]}} gold spent per gold earned</p>
-                    <p><strong>Average deduction in percent:</strong> {{selectedPlayerObject.deducts["avg"]}}</p>
+                    <p><strong>Average deduction in percent:</strong> {{parseFloat(selectedPlayerObject.deducts["avg"]).toFixed(2)}}</p>
                 </div>
             <p>
                 <h2>All cuts from raids</h2>
