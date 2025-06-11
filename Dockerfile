@@ -2,9 +2,15 @@ FROM ubuntu/apache2
 
 # Copy website stuff
 COPY ./index.html ~
-COPY ./index.html /var/www/html/
 COPY ./findscript.js /var/www/html/
-COPY ./styles.css /var/www/html/
+COPY ./index_script.js /var/www/html/
+COPY ./index.html /var/www/html/
+COPY ./item_stats.html /var/www/html/
+COPY ./player_script.js /var/www/html/
+COPY ./player_stats.html /var/www/html/
+COPY ./styles_index.css /var/www/html/
+COPY ./styles_item_stats.css /var/www/html/
+COPY ./styles_player_stats.css /var/www/html/
 COPY ./gorilla_analyze.py /var/www/html/
 COPY ./gorillaparser.py /var/www/html/
 COPY ./time_plotter.py /var/www/html/
