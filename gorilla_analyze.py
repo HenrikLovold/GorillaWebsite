@@ -152,7 +152,7 @@ class GorillaAnalyzer:
         time.sleep(time_to_sleep)
         LOGGER.log_entry("Daily update from server")
         self.prices = self._fetch_data_from_server()
-        self.dump_to_file("out_list.csv", "player_list.csv", "buyer_list.csv", "deduct_list.csv" "misc_list.csv")
+        self.dump_to_file("out_list.csv", "player_list.csv", "buyer_list.csv", "deduct_list.csv", "misc_list.csv")
         time.sleep(1)
 
 def main(reload_server=False, reload_file=False):
