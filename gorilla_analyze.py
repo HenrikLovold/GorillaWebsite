@@ -134,8 +134,11 @@ class GorillaAnalyzer:
                 f.write(str(key) + " " + str(value) + "\n")
         LOGGER.log_entry("Dumped deduct data to file " + str(filename_deducts))
         with open(filename_misc, "w") as f:
-            for key, value in self.misc.items():
-                f.write(str(key) + " " + str(value) + "\n")
+            try:
+                for key, value in self.misc.items():
+                    f.write(str(key) + " " + str(value) + "\n")
+            except:
+                LOGGER.log_entry("Error logging misc items")
         LOGGER.log_entry("Dumped misc data to file " + str(filename_misc))
 
     def daily_update(self):
