@@ -231,7 +231,7 @@ def get_prices_and_players(testing=False, n_test=0):
             if not sheet.startswith("["):
                 continue
             datematch_regex = r"\[(.*?)\]"
-            date = re.match(datematch_regex, sheet).group()[1:-1] + "." + sheet[-1]
+            date = re.match(datematch_regex, sheet).group()[1:-1] + "." + sheet[-1] # pyright: ignore[reportOptionalMemberAccess]
             KEY_RANGE_ITEMS = f'{sheet}!B8:B63'
             VALUE_RANGE_ITEMS = f'{sheet}!D8:D63'
             KEY_RANGE_PLAYERS = f'{sheet}!E8:E63'
@@ -250,8 +250,10 @@ def get_prices_and_players(testing=False, n_test=0):
             ]
             print(f"\n--- Fetching Data from {sheet} ---")
             value_ranges = read_sheet_data(SPREADSHEET_ID, RANGES_TO_READ, credentials)
-            items = value_ranges[0]["values"]
-            prices = value_ranges[1]["values"]
+            if not value_ranges:
+                raise RuntimeError("Value ranges invalid")
+            items = value_ranges[0]["values"] # pyright: ignore[reportOptionalSubscript]
+            prices = value_ranges[1]["values"] # type: ignore
             players = value_ranges[2]["values"]
             cuts = value_ranges[3]["values"]
             buyers = value_ranges[4]["values"]
